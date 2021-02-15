@@ -1,5 +1,5 @@
 # Receipts-OCR-on-colabs: Pytesseract vs. EasyOCR.
-
+![OCR](article42.png)
 In this notebook I have run both packages on images downloaded from 
 https://expressexpense.com/large-receipt-image-dataset-SRD.zip
 
