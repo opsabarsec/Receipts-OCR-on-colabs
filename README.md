@@ -1,4 +1,5 @@
 # Receipts optical character reading: Pytesseract vs. EasyOCR.
+Details available as [blog post](https://m-berta.medium.com/optical-character-recognition-ocr-pytesseract-vs-easyocr-5df810c6c91c).
 ![process](ocrprocess.png)
 
 ## 1. Background
@@ -8,7 +9,6 @@ Receipts carry the information needed for trade to occur between companies and m
 200 images of restaurants/bars receipts were downloaded at the following [link](https://expressexpense.com/large-receipt-image-dataset-SRD.zip)
 
 ## 3. OCR libraries test results
-Full explanation [here](https://m-berta.medium.com/optical-character-recognition-ocr-pytesseract-vs-easyocr-5df810c6c91c).
 
 Both packages have been tested on a Jupyter notebook running on Google Colabs.
 Code is available [here](https://github.com/opsabarsec/Receipts-OCR-on-colabs/blob/main/OCR_Receipts.ipynb) . 
@@ -16,6 +16,6 @@ Code is available [here](https://github.com/opsabarsec/Receipts-OCR-on-colabs/bl
 Pytesseract runs well just using CPU but often does not produces accurate outputs due to focus/shadows issues of the original image.
 I have tried preprocessing using OpenCv but that helped moderately.
 
-Better results were obtained using EasyOCR library. It requires GPU accelerated environment though and runs smoothly when this is activated in a Colabs notebook.
+Better results were obtained using the EasyOCR library. It requires GPU accelerated environment though and runs smoothly when this is activated in a Colabs notebook.
 
 ![OCR](article42.png)
