@@ -1,5 +1,7 @@
 # Receipts optical character reading: Pytesseract vs. EasyOCR.
+
 Details available as [blog post](https://m-berta.medium.com/optical-character-recognition-ocr-pytesseract-vs-easyocr-5df810c6c91c).
+
 ![process](ocrprocess.png)
 
 ## 1. Background
